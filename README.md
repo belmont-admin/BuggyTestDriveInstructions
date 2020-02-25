@@ -10,18 +10,14 @@ In this session you will code the MOVE:mini robot buggy to drive when button ``|
 
 ## Step 1 - Show the buggy is alive and ready
 
-There is some code already written for you to get you started
+There is an ``||basic:on start||`` block ready for you to add some start up code.
 
-There's a ``||basic:show icon||`` block so that something is displayed on the @boardname@ at all times. We want this so we know it is powered on and ready. There are lots of other icons you can choose if you don't want the happy face.
+Add a ``||basic:show icon||`` block so that something is displayed on the @boardname@ at all times. We want this so we know it is powered on and ready. There are lots of other icons you can choose if you don't want the happy face.
 
 ```blocks
 basic.showIcon(IconNames.Happy)
-let strip = neopixel.create(DigitalPin.P0, 5, NeoPixelMode.RGB)
-strip.setBrightness(25)
 ```
 This is also means we are less likely to pack the buggy away when it is still switched on and therefore run down the batteries while in its box doing nothing.
-
-The other thing already done for you is the setup of the neopixel strip. There is also a ``||neopixel:set brightness (NUM)||`` block which turns the brightness down. This means your batteries will last longer.
 
 ## Step 2 - Program a countdown
 
