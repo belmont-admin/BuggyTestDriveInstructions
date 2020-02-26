@@ -41,7 +41,7 @@ input.onButtonPressed(Button.A, function () {
 
 You're now ready to add code to make the buggy move forwards. Remember how the pins on the @boardname@ are used.
 
-![Pin Outs](https://github.com/belmont-admin/testdriveinstructions/raw/master/docs/images/0-PinOuts.png) 
+![Pin Outs](https://github.com/belmont-admin/BuggyTestDriveInstructions/raw/master/docs/images/0-PinOuts.png) 
 
 and that:
 
