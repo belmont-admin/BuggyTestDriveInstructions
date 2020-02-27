@@ -23,7 +23,9 @@ This is also means we are less likely to pack the buggy away when it is still sw
 
 We don't want the buggy to move as soon as the button is pressed. If it did it would be a rush to get your fingers out of the way. Instead we want a countdown from 5 and then get the buggy to move.
 
-Create a variable ``||variable:start||`` and set it to 5 as initally we'll do a countdown from 5 using a ``||loops:while do||`` loop.
+The blocks to do the countdown have already been done for you
+
+A variable ``||variable:start||`` is set to 5 and then a ``||loops:while do||`` loop is used to do the countdown.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
