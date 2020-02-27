@@ -84,6 +84,17 @@ Think why that might be and then see if you can fix your code. Maybe look carefu
 
 Congratulations you have now programmed your buggy to move successfully
 
+### ~hint
+
+#### If your buggy doesn't move in a straight line
+This will be because one wheel is turning faster than the other. Look at how the buggy moves to find out which wheel that is. You can then change your code to make that wheel turn a bit more slowly. Remember how the number used in the ``||Pins:servo write pin (PIN) to (NUMBER)||`` affects the speed.
+
+![Pin Outs](https://github.com/belmont-admin/BuggyTestDriveInstructions/raw/master/docs/images/5-SpeedControl.png) 
+
+To start with try using a value of **100** instead of 180 and then make small adjustments from there if necessary.
+
+### ~
+
 ## Step 4 - Create a ``||functions:function||`` to make your code reusable
 
 The next step is to make it so that when you press button ``||B||`` the buggy spins for 500 milliseconds. The code you need to do this is going to be very similar. You could just duplicate a large chunk of code but that makes your program bigger, harder to read and means if you want to change things then you have to change them in more than one place.
