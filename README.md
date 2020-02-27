@@ -10,9 +10,7 @@ In this session you will code the MOVE:mini robot buggy to drive when button ``|
 
 ## Step 1 - Show the buggy is alive and ready
 
-There is an ``||basic:on start||`` block ready for you to add some start up code.
-
-Add a ``||basic:show icon||`` block so that something is displayed on the @boardname@ at all times. We want this so we know it is powered on and ready. There are lots of other icons you can choose if you don't want the happy face.
+Add a ``||basic:show icon||`` block inside an ``||basic:on start||`` block so that something is displayed on the @boardname@ at all times. We want this so we know it is powered on and ready. There are lots of other icons you can choose if you don't want the happy face.
 
 ```blocks
 basic.showIcon(IconNames.Happy)
